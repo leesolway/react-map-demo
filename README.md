@@ -21,8 +21,10 @@ Use the follow information to test :-
 
 ### Improvements
 
-- Use a Context Provider to power Toast Notifications
+- Use a Context Provider to power Toast Notifications and move higher up the component chain
 - Better form control including dirty, touched etc
 - Batch state updates or combine states to reduce re-renders
 - Styles constants file
 - Add env support for config
+- Toast Notification may vanish early if the component re-renders
+- Additional validation (Input, prop-types etc) and error handling
