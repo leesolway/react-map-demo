@@ -10,7 +10,11 @@ const Input = styled.input`
   margin: 0;
   padding: 8px;
   font-size: 16px;
-  color: #8596a6;
+  color: #252525;
+
+  &::placeholder {
+    color: #8596a6;
+  }
 `;
 
 const Wrapper = styled.div`
